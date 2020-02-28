@@ -86,7 +86,9 @@ body {
 }
 
 .breadcrumbs {
+  overflow: hidden;
   &__inner {
+    width: 1200px;
     padding: 45px 0 40px;
   }
   &__list {
@@ -126,4 +128,8 @@ body {
     color: $green;
     font-size: 14px;
   }
+}
+
+#modal {
+  display: none;
 }
